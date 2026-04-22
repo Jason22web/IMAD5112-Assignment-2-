@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--WELCOME SCREEN-->
+    <LinearLayout
+        android:id="@+id/WelcomeScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="HackVSHoax"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/btnStart"
+            android:text="Start Game"/>
+
+        <!--GAME SCREEN-->
+        <LinearLayout
+            android:id="@+id/GameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btnHack"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hack"/>
+
+            <Button
+                android:id="@+id/btnHoax"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hoax"/>
+
+            <TextView
+                android:id="@+id/txtFeedback"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/btnNext"
+                android:text="Next"/>
+
+            <!--SCORE SCREEN-->
+            <LinearLayout
+                android:id="@+id/ScoreLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtScore"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="32sp"/>
+
+                <Button
+                    android:id="@+id/btnReset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="Reset"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
