@@ -1,5 +1,6 @@
 package com.example.imad5112assignment2
 
+import android.R
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,6 +16,9 @@ import com.example.imad5112assignment2.ui.theme.IMAD5112ASSIGNMENT2Theme
 
 class MainActivity : ComponentActivity() {
 
+    private val questions = arrayOf(
+        ""
+    )
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
