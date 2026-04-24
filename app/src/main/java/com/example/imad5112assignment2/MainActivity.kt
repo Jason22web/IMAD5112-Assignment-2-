@@ -150,7 +150,7 @@ class MainActivity : ComponentActivity() {
         val reviewbutton = findViewById<Button>(R.id.btnScoreStart)
 
         scoreText.text = "You got $score out of ${questions.size}"
-        finalfeedback.text = if (score >= 9 )"Awesome you're a life hacker" else "You can get there just keep practicing!", else "keep practicing"
+        finalfeedback.text = if (score >= 9) "Awesome you're a life hacker" else "You can get there just keep practicing!"
 
         reviewbutton.setOnClickListener {
             val facts = questions.mapIndexed { index, q ->
