@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hackvshoaxbackground"/>
+
+    <!--Glass Card-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:padding="24dp"
+        android:background="#80FFFFFF"
+        android:elevation="10dp">
+
+        <!--Title-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click when ready to view final score!"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0d0505"
+            android:layout_marginBottom="10dp"/>
+
+
+        <!--Button-->
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Calculate"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#f3f5f2"
+            android:backgroundTint="#F2F4A30B"
+            android:elevation="6dp"
+            android:layout_marginBottom="15dp"/>
+
+        <!--Output-->
+        <TextView
+            android:id="@+id/textOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result will appear here"
+            android:textSize="18sp"
+            android:textColor="#0d0505"
+            android:padding="12dp"
+            android:background="#40FFFFFF"
+            android:lineSpacingExtra="4dp"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Exit"
+            android:elevation="6dp"
+            android:backgroundTint="#F2F4A30B"
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
