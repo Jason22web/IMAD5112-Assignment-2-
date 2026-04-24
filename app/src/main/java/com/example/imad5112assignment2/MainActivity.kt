@@ -145,20 +145,20 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.score_layout)
 
         val scoreText = findViewById<TextView>(R.id.textOutput)
-        val finalfeedback = findViewById<TextView>(R.id.finalfeedback)
-        val exitbutton = findViewById<Button>(R.id.exitbtn)
-        val reviewbutton = findViewById<Button>(R.id.btnScoreStart)
+        val finalFeedback = findViewById<TextView>(R.id.finalfeedback)
+        val exitButton = findViewById<Button>(R.id.exitbtn)
+        val reviewButton = findViewById<Button>(R.id.btnScoreStart)
 
         scoreText.text = "You got $score out of ${questions.size}"
-        finalfeedback.text = if (score >= 9) "Awesome you're a life hacker" else "You can get there just keep practicing!"
+        finalFeedback.text = if (score >= 9) "Awesome you're a life hacker" else "You can get there just keep practicing!"
 
-        reviewbutton.setOnClickListener {
+        reviewButton.setOnClickListener {
             val facts = questions.mapIndexed { index, q ->
                 "${index + 1}. $q\nAnswer: ${answers[index]}"
             }.joinToString("\n\n")
             Toast.makeText(this, facts, Toast.LENGTH_LONG).show()
         }
-        exitbutton.setOnClickListener {
+        exitButton.setOnClickListener {
             finish()
         }
     }
