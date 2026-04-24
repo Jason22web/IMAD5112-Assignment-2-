@@ -1,6 +1,11 @@
 # IMAD5112-Assignment-2-
 This is my work done for ASSIGNMENT 2 for IMAD5112. 
 
+Name: Jason Lewis
+St Number: ST10507997
+Lecturer: Fakazi Ngema
+
+
 HACK VS HOAX
 ❗❗**About This App**
 
