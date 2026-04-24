@@ -9,13 +9,20 @@ Hack VS Hoax! This app is a flash card game. It's meant to help the user determi
 🤖👽**Features**
 This app features Three different screens one being a display/welcome screen, one being the main page for the game to take place, and lastly the final score page which dislpays the result to the user. there are 10 questons.
 
+🔧🔧**How it works**
+Basic loop logic was used to set up the flash card game with 3 seperate layouts 1 for (welcome, quiz and score) screens. 
+
+❗❗ **Requirements**
+ - Language : Kotlin
+ - Platform : Android Studio
+ - Version Control : Github
+ - CI/CD Github Actions
+
+😒 **Github**
+i used github actions to automate my android builds, ensuring the code complies correctly on every push to the master branch
 
 
 
 
 
 
-
-
-
-//https://create.vista.com/unlimited/stock-photos/538024538/stock-photo-broken-smartphone-glass-laptop-screen-monitor-cracked-broken-glass-tablet/ i used this site for the broken glass image i must reference this later on
