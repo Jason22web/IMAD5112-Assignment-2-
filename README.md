@@ -10,7 +10,8 @@ Hack VS Hoax! This app is a flash card game. It's meant to help the user determi
 This app features Three different screens one being a display/welcome screen, one being the main page for the game to take place, and lastly the final score page which dislpays the result to the user. there are 10 questons.
 
 🔧🔧**How it works**
-Basic loop logic was used to set up the flash card game with 3 seperate layouts 1 for (welcome, quiz and score) screens. 
+Basic loop logic was used to set up the flash card game with 3 seperate layouts 1 for (welcome, quiz and score) screens.
+loop logic for the questions
 
 ❗❗ **Requirements**
  - Language : Kotlin
