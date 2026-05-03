@@ -76,43 +76,7 @@ class MainActivity : ComponentActivity() {
                 answered = true
             }
         }
-        hackButton.setOnClickListener {
-            if (!answered){
-                checkAnswer(true, feedbackText)
-                answered = true
-            }
-        }
-        hoaxButton.setOnClickListener {
-            if (!answered){
-                checkAnswer(false, feedbackText)
-            }
-        }
-        hackButton.setOnClickListener {
-            if (!answered){
-                checkAnswer(true, feedbackText)
-            }
-        }
-        hoaxButton.setOnClickListener {
-            if (!answered){
-                checkAnswer(false, feedbackText)
-            }
-        }
-        hackButton.setOnClickListener {
-            if (!answered){
-                checkAnswer(true, feedbackText)
-            }
-        }
-        hoaxButton.setOnClickListener {
-            if (!answered)
-                checkAnswer(false, feedbackText)
-        }
 
-        hoaxButton.setOnClickListener {
-            if (!answered) {
-                checkAnswer(false, feedbackText)
-                answered = true
-            }
-        }
         hackButton.setOnClickListener {
             if (!answered) {
                 checkAnswer(true, feedbackText)
