@@ -53,6 +53,7 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun showQuizScreen() {
+        setContentView(R.layout.quizzes_layout)
 
         val questionText = findViewById<TextView>(R.id.txtQuestions)
         val hackButton = findViewById<Button>(R.id.btnTrue)
@@ -77,11 +78,6 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        hackButton.setOnClickListener {
-            if (!answered) {
-                checkAnswer(true, feedbackText)
-            }
-        }
 
         nextButton.setOnClickListener {
             currentQuestions++
